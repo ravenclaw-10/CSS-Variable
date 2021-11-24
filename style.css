@@ -1,3 +1,36 @@
+:root{
+    --main-color:gold;
+    --blur:10px;
+    --spacing:10px;
+}
+
 body{
     background:rgb(33, 33, 65);
+    text-align:center;
+}
+
+img{
+    width:100%;
+    filter:blur(var(--blur));
+}
+
+h1{
+    color:var(--main-color);
+    font-size:3em;
+}
+
+.image{
+    width:40%;
+    background:var(--main-color);
+    margin:auto;
+    padding:var(--spacing);
+}
+
+input{
+    margin:18px;
+}
+
+label{
+    color:gold;
+    font-size:20px;
 }
